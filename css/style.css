@@ -184,6 +184,10 @@ html {
     color: #090806;
 }
 
+a {
+    color: #090806;
+}
+
 .content {
     max-width: 1172px;
     padding: 0 10px;
