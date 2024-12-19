@@ -861,6 +861,12 @@ a {
 }
 
 @media screen and (max-width: 720px) {
+    .cookies {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
     .policy {
         margin-bottom: 60px;
     }
