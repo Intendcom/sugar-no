@@ -9,6 +9,10 @@ function getCookieAcceptance() {
     return localStorage.getItem('cookiesAccepted');
 }
 
+function prevent(event) {
+    event.preventDefault();
+}
+
 window.addEventListener("load", function () {
     let cookieAcceptance = getCookieAcceptance();
     if (cookieAcceptance == null) {
